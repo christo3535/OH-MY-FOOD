@@ -371,7 +371,53 @@ header h1 {
   flex-direction: column;
   gap: 5px;
 }
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.7rem;
+  font-weight: 100;
+  color: black;
+  animation: heartanimblack 1.2s;
+}
 
+input {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked ~ i {
+  font-weight: 900;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 121, 218, 1) 0%,
+    rgba(147, 86, 220, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heartanim 1.5s;
+}
+
+input[type="checkbox"]:checked ~ i:hover { 
+  cursor: pointer;
+}
+
+/* hearth animation gradient */
+@keyframes heartanim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* heart animation black*/
+@keyframes heartanimblack {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 /* FOOTER */
