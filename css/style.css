@@ -536,34 +536,36 @@ footer ul li a:hover {
   overflow: hidden;
   gap: 5px;
   display: flex;
-  /* justify-content: space-between; */
+  text-shadow: ellipsis;
 }
 .card-head {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+   width: 100%; 
   padding: 16px;
+  overflow: hidden;
+  gap:1rem;
+  text-shadow: ellipsis;
 }
 
-/* 
-.cards-text {
-  display: flex;
-  flex-direction: column;
- overflow: hidden;
- flex: 1;
- align-items: flex-start;
- gap: 10px;
-} */
+.cards-text p,
+.cards-text h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
 .cards-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-shadow: ellipsis;
 }
 .card-price {
   align-items: flex-end;
   display: flex;
-
-
 }
 
 .animation {
