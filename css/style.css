@@ -533,7 +533,7 @@ footer ul li a:hover {
   overflow: hidden;
   gap: 5px;
   display: flex;
-  text-shadow: ellipsis;
+  
 }
 .card-head {
   display: flex;
@@ -542,7 +542,7 @@ footer ul li a:hover {
   padding: 16px;
   overflow: hidden;
   gap: 1rem;
-  text-shadow: ellipsis;
+  /* text-shadow: ellipsis; */
 }
 
 .cards-text p,
