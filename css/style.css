@@ -30,10 +30,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-
 
 a {
   text-decoration: none;
@@ -109,7 +107,7 @@ a {
 
   100% {
     color: #ff79da;
-    /* text-shadow:0 0 7px #9356dc, 0 0 50px #9356dc; */
+     /* text-shadow: 0 0 7px #9356dc, 0 0 8px #9356dc;  */
   }
 }
 
@@ -145,13 +143,12 @@ a {
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100px;
 }
 
-header h1 {
+header p {
   padding: 15px;
-  justify-content: center;
-  align-self: center;
 }
 /* Template */
 .header-direction {
@@ -242,7 +239,8 @@ header h1 {
 }
 .option h1 {
   margin-left: 15px;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
+  
   font-size: 25px;
 }
 .option-step {
@@ -254,7 +252,7 @@ header h1 {
   align-items: center;
   gap: 15px;
   text-decoration: none;
-   padding: 19px 5px; 
+  padding: 19px 5px;
   margin-left: 30px;
   margin-bottom: 15px;
   border-radius: 20px;
@@ -426,9 +424,9 @@ footer {
   padding: 20px;
   gap: 15px;
 }
-.footer-title  {
-  font-family: "Shrikhand",cursive;
-  font-size: 25px;
+.footer-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 40px;
 }
 footer ul li a {
   color: #f2f2f2;
@@ -487,7 +485,7 @@ footer ul li a:hover {
   margin: 30px 0px;
   opacity: 0;
   animation: moving 0.8s forwards;
-  animation-delay: 0.9s; 
+  animation-delay: 0.9s;
 }
 
 /* MENU */
@@ -559,7 +557,7 @@ footer ul li a:hover {
   justify-content: space-between;
   overflow: hidden;
   white-space: nowrap;
-  gap:4px;
+  gap: 4px;
   font-size: 14px;
 }
 .card-price {
@@ -692,6 +690,8 @@ card-menu:hover i {
   .option h1 {
     text-align: center;
     font-size: 2rem;
+    padding-top: 0px;
+    margin-top: 0px; /*attention*/
   }
 
   .option {
@@ -848,7 +848,6 @@ card-menu:hover i {
   footer h2 {
     font-size: 35px;
   }
-  
 }
 /* IPAD MINI */
 @media screen and (min-width: 700px) {
