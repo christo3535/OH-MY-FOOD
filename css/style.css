@@ -251,7 +251,6 @@ header h1 {
   text-decoration: none;
   padding: 19px 5px;
   margin-left: 40px;
-  /* width: 90%; */
   margin-bottom: 10px;
   border-radius: 20px;
   font-weight: lighter;
@@ -325,7 +324,6 @@ header h1 {
 
 .card {
   width: 100%;
-  /* max-width: 300px; */
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -365,7 +363,7 @@ header h1 {
   gap: 5px;
 }
 .fas {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 6 Free";
   font-size: 1.7rem;
   font-weight: 100;
   color: black;
