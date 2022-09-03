@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand", cursive;
+  font-family: "SHrikhand", cursive;
 }
 
 a {
@@ -39,7 +39,6 @@ footer h2 {
   font-size: 20px;
 }
 /* LOADER */
-
 
 .loader {
   width: 100vw;
@@ -181,18 +180,18 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: #f5f5f5;
   font-size: large;
   font-weight: 300;
   gap: 18px;
   height: 60px;
-  box-shadow: inset 0px 8px 6px -6px grey;
+  box-shadow: inset 0px 8px 6px -6px rgb(0 0 0/24%);
 }
 
 /* Presentation */
 
 .presentation {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   text-align: center;
   padding: 20px 15px;
   gap: 30px;
@@ -210,7 +209,6 @@ header h1 {
   border: none;
   outline: none;
   cursor: pointer;
-  /* margin: 15px 0px; */
   display: block;
   margin: 0 auto;
   box-shadow: 0 6px 15px #f2f2f2;
@@ -253,7 +251,7 @@ header h1 {
   text-decoration: none;
   padding: 19px 5px;
   margin-left: 40px;
-  width: 90%;
+  /* width: 90%; */
   margin-bottom: 10px;
   border-radius: 20px;
   font-weight: lighter;
@@ -390,7 +388,7 @@ input[type="checkbox"]:checked ~ i {
   animation: heartanim 1.5s;
 }
 
-input[type="checkbox"]:checked ~ i:hover { 
+input[type="checkbox"]:checked ~ i:hover {
   cursor: pointer;
 }
 
@@ -414,7 +412,6 @@ input[type="checkbox"]:checked ~ i:hover {
   }
 }
 
-
 /* FOOTER */
 
 footer {
@@ -424,6 +421,10 @@ footer {
   color: #f2f2f2;
   padding: 20px;
   gap: 15px;
+}
+.footer-title  {
+  font-family: "Shrikhand",cursive;
+  font-size: 25px;
 }
 footer ul li a {
   color: #f2f2f2;
@@ -507,9 +508,6 @@ footer ul li a:hover {
 }
 /* Card Menu */
 
-
-
-
 .menu-head {
   gap: 25px;
   display: flex;
@@ -526,7 +524,6 @@ footer ul li a:hover {
   border-radius: 10px;
   background-color: #fff;
   margin: 10px 0;
-  /* padding: 16px; */
   box-shadow: 13px 14px 13px -6px rgba(0, 0, 0, 0.14);
   overflow: hidden;
   gap: 5px;
@@ -536,10 +533,10 @@ footer ul li a:hover {
 .card-head {
   display: flex;
   justify-content: space-between;
-   width: 100%; 
+  width: 100%;
   padding: 16px;
   overflow: hidden;
-  gap:1rem;
+  gap: 1rem;
   text-shadow: ellipsis;
 }
 
@@ -548,7 +545,6 @@ footer ul li a:hover {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 
 .cards-text {
   display: flex;
@@ -564,8 +560,8 @@ footer ul li a:hover {
 }
 
 .animation {
-  display:flex ;
-  opacity:0;
+  display: flex;
+  opacity: 0;
   width: 0;
   height: auto;
   align-items: center;
@@ -595,112 +591,13 @@ footer ul li a:hover {
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg);
-
+  from {
+    transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
 }
-
-/* 
-/*
-
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidde
-
-.animation {
-  background-color: #99e2d0;
-  padding: 15px;
-  width: fit-content; 
-}
-
-
-/* 
-/*
-
-
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidde
-
-.animation {
-  background-color: #99e2d0;
-  padding: 15px;
-  width: fit-content; 
-}
-
-.card-price {
-  transform: translateX(60px);
-  transition: all 200ms ease-in-out;
-}
-
-.animation i {
-  padding: 5px;
-  background-color: white;
-  border-radius: 50%;
-  transition: all 500ms ease-in-out;
-  color: #99e2d0;
-  transform: rotate(180deg);
-}
-
-.card-menu:hover .card-price {
-  transform: translateX(0px);
-}
-
-.card-menu:hover .animation i {
-  transform: rotate(0deg);
-}
-.card-menu:hover .card-text h4 {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width: 100px;
-}
-
-.card-menu:hover .card-text p {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-.cards-text {
-  width: 230px;
-  padding: 10px 15px;
-  font-size: 14px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.cards-text p,
-.card-text h4 {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.card-price {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 100%;
-}
-
-.card-price p {
-  padding: 10px 15px;
-  /* padding:15px 15px *
-  vertical-align: baseline;
-}
-.menu-head {
-  position: relative;
-}
-
-
-} */
 
 /* Animation Menu */
 .menu-entre {
@@ -754,6 +651,7 @@ card-menu:hover i {
 
   .option-step li {
     margin-left: 0;
+    width: 90%;
   }
 
   .presentation {
@@ -827,9 +725,9 @@ card-menu:hover i {
     flex-direction: row;
   }
   .header-direction i {
-  position: absolute;
-  left: 5%;
-  top: 30px;
+    position: absolute;
+    left: 5%;
+    top: 30px;
   }
   .card-menu {
     width: 100%;
@@ -887,15 +785,6 @@ card-menu:hover i {
     font-size: 20px;
   }
 
-  /* .card-price p {
-    display: flex;
-                vertical-align: baseline;
-                width: 50px;
-                justify-content: flex-end;
-                margin: 0% 4% 10px 0%;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-  } */
   .menu-head {
     white-space: nowrap;
     overflow: hidden;
@@ -969,7 +858,6 @@ card-menu:hover i {
   .restaurants h2 {
     text-align: center;
   }
-  
 
   .menu-entre {
     width: 100%;
