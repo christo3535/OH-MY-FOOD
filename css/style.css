@@ -187,7 +187,7 @@ header p {
   box-shadow: inset 0px 8px 6px -6px rgb(0 0 0/24%);
 }
 
-/* Presentation */
+/* PRESENTATION */
 
 .presentation {
   background-color: #fafafa;
@@ -228,7 +228,7 @@ header p {
   top: 6px;
 }
 
-/* Fonctionement */
+/* FONCTIONEMENT */
 
 .option {
   display: flex;
@@ -258,7 +258,6 @@ header p {
   border-radius: 20px;
   font-weight: 500;
   box-shadow: 0px 0px 19px -3px rgb(0 0 0 /50%);
-  /* font-family: 'Roboto'; */
 }
 
 .option-step li > div {
@@ -295,7 +294,7 @@ header p {
   display: flex;
 }
 
-/* Restaurants */
+/* RESTAURANTS */
 
 .restaurants {
   padding: 25px 10px;
@@ -350,9 +349,7 @@ header p {
 .card-image:hover {
   transform: scale(1.07);
 }
-.heart .fa-solid {
-  display: none;
-}
+
 
 .card-text {
   display: flex;
@@ -366,6 +363,7 @@ header p {
   flex-direction: column;
   gap: 5px;
 }
+/* HEART */
 .fas {
   font-family: "Font Awesome 6 Free";
   font-size: 1.7rem;
@@ -394,7 +392,7 @@ input[type="checkbox"]:checked ~ i:hover {
   cursor: pointer;
 }
 
-/* hearth animation gradient */
+/* HEART ANIMATION GRADIENT */
 @keyframes heartanim {
   0% {
     opacity: 0;
@@ -404,7 +402,7 @@ input[type="checkbox"]:checked ~ i:hover {
   }
 }
 
-/* heart animation black*/
+/* HEART ANIMATION BLACK*/
 @keyframes heartanimblack {
   0% {
     opacity: 0;
@@ -426,7 +424,7 @@ footer {
 }
 .footer-title {
   font-family: "Shrikhand", cursive;
-  font-size: 40px;
+  font-size: 25px;
 }
 footer ul li a {
   color: #f2f2f2;
@@ -542,7 +540,6 @@ footer ul li a:hover {
   padding: 16px;
   overflow: hidden;
   gap: 1rem;
-  /* text-shadow: ellipsis; */
 }
 
 .cards-text p,
@@ -677,6 +674,7 @@ card-menu:hover i {
 
   footer .footer-title {
     align-self: center;
+    font-size: 40px;
   }
   footer .footer-items {
     display: flex;
