@@ -26,18 +26,20 @@ body {
 }
 
 h1 {
-  font-family: "SHrikhand", cursive;
+  font-family: "Shrikhand", cursive;
 }
+
+h2 {
+  font-family: 'Roboto',sans-serif;
+}
+
+
 
 a {
   text-decoration: none;
   color: black;
 }
 
-footer h2 {
-  font-family: "Shrikhand", cursive;
-  font-size: 20px;
-}
 /* LOADER */
 
 .loader {
@@ -235,11 +237,13 @@ header h1 {
   display: flex;
   flex-direction: column;
   padding: 30px 10px 15px 12px;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 20px;
 }
-.option h2 {
+.option h1 {
   margin-left: 15px;
+  font-family: 'Roboto';
+  font-size: 25px;
 }
 .option-step {
   gap: 40px;
@@ -250,12 +254,13 @@ header h1 {
   align-items: center;
   gap: 15px;
   text-decoration: none;
-  padding: 16px 5px;
+   padding: 19px 5px; 
   margin-left: 30px;
   margin-bottom: 15px;
   border-radius: 20px;
-  font-weight: lighter;
+  font-weight: 500;
   box-shadow: 0px 0px 19px -3px rgb(0 0 0 /50%);
+  /* font-family: 'Roboto'; */
 }
 
 .option-step li > div {
@@ -480,6 +485,9 @@ footer ul li a:hover {
   align-self: center;
   justify-content: center;
   margin: 30px 0px;
+  opacity: 0;
+  animation: moving 0.8s forwards;
+  animation-delay: 0.9s; 
 }
 
 /* MENU */
@@ -551,7 +559,8 @@ footer ul li a:hover {
   justify-content: space-between;
   overflow: hidden;
   white-space: nowrap;
-  text-shadow: ellipsis;
+  gap:4px;
+  font-size: 14px;
 }
 .card-price {
   align-items: flex-end;
@@ -680,7 +689,7 @@ card-menu:hover i {
   footer h2 {
     font-size: 35px;
   }
-  .option h2 {
+  .option h1 {
     text-align: center;
     font-size: 2rem;
   }
@@ -839,18 +848,7 @@ card-menu:hover i {
   footer h2 {
     font-size: 35px;
   }
-  /* .lists_restaurants { 
-
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  flex-direction: row;
-
-  justify-content: space-between;
-  width: 200%;
- 
-
-} */
+  
 }
 /* IPAD MINI */
 @media screen and (min-width: 700px) {
