@@ -40,12 +40,7 @@ footer h2 {
 }
 /* LOADER */
 
-/* .loader {
-  position: fixed;
-  /* top: 50%;
-    left: 50%;
-    transform: translate(-40%, -50%); */
-/* animation: title linear infinite 5s; */
+
 .loader {
   width: 100vw;
   height: 100vh;
@@ -288,7 +283,7 @@ header h1 {
 
 .option-step span {
   position: relative;
-  left: -15px;
+  left: -17px;
   width: 25px;
   height: 25px;
   border-radius: 50px;
