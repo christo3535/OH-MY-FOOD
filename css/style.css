@@ -618,9 +618,7 @@ footer ul li a:hover {
   animation: moving 0.8s forwards;
   animation-delay: 0.6s;
 }
-card-menu:hover i {
-  animation: rotate 0.4s ease-out 0.1s forwards;
-}
+ 
 
 
 /* TEMPLATE BUTTON + ANIMATION MOVING */
