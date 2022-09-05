@@ -48,7 +48,7 @@ a {
   z-index: 100;
   align-items: center;
   justify-content: center;
-  animation: loader 3000ms ease-in-out forwards;
+  animation: loader 7000ms ease-in-out forwards;
 }
 
 @keyframes loader {
