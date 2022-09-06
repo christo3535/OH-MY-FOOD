@@ -48,7 +48,7 @@ a {
   z-index: 100;
   align-items: center;
   justify-content: center;
-  animation: loader 7000ms ease-in-out forwards;
+  animation: loader 3000ms ease-in-out forwards 5000ms;
 }
 
 @keyframes loader {
@@ -91,7 +91,7 @@ a {
 }
 
 .box li {
-  animation: flash 2s linear infinite;
+  animation: flash 1.5s linear infinite;
 }
 
 @keyframes flash {
