@@ -48,7 +48,7 @@ a {
   z-index: 100;
   align-items: center;
   justify-content: center;
-  animation: loader 3000ms ease-in-out forwards 5000ms;
+  animation: loader 3000ms ease-in-out forwards 3000ms;
 }
 
 @keyframes loader {
@@ -91,7 +91,28 @@ a {
 }
 
 .box li {
-  animation: flash 1.5s linear infinite;
+  animation: flash 1s linear infinite;
+}
+.box ul::after {
+  content: "";
+   width: 50px;
+   height: 50px;
+   margin-top: 150px;
+   position: absolute;
+   border-top: 3px solid var(--primaire);
+   border-radius: 50%;
+   animation: spin 1s linear infinite ;
+   
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes flash {
@@ -179,7 +200,7 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #f6f6f6;
   font-size: large;
   font-weight: 300;
   gap: 18px;
@@ -580,12 +601,12 @@ footer ul li a:hover {
 .animation i {
   background-color: #fff;
   color: #99e2d0;
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  display: flex;
 }
 
 .card-menu:hover i {
@@ -754,7 +775,6 @@ footer ul li a:hover {
 @media screen and (max-width: 280px) {
   .option-step li {
     width: 80%;
-
     padding: 10px 5px;
   }
   .option-step {
