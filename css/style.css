@@ -304,7 +304,7 @@ header p {
 
 .option-step span {
   position: relative;
-  left: -17px;
+  left: -20px;
   width: 25px;
   height: 25px;
   border-radius: 50px;
@@ -491,9 +491,9 @@ footer ul li a:hover {
 .restaurant-name h1 {
   font-family: "Shrikhand";
 }
-.restaurant-name i {
-  font-size: 25px;
-}
+/* .restaurant-name i {
+   font-size: 25px;
+} */
 
 /* TEMPLATE BUTTON + ANIMATION MOVING */
 .recherche {
