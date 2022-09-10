@@ -48,7 +48,7 @@ a {
   z-index: 100;
   align-items: center;
   justify-content: center;
-  animation: loader 3000ms ease-in-out forwards 3000ms;
+  animation: loader 2000ms ease-in-out forwards 2000ms;
 }
 
 @keyframes loader {
@@ -231,6 +231,7 @@ header p {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  position: relative;
   box-shadow: 0 6px 15px #f2f2f2;
   transform: scale(1);
 }
