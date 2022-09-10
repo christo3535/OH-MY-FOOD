@@ -223,7 +223,7 @@ header p {
 .bth {
   padding: 10px 20px;
   color: white;
-  font-size: larger;
+  font-size: 1.1rem;
   background: linear-gradient(170deg, #ff79da, #9356dc);
   border-radius: 50px;
   border: none;
