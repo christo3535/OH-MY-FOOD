@@ -266,6 +266,7 @@ header p {
 }
 .option-step {
   gap: 40px;
+  padding-right: 10px;
 }
 
 .option-step li {
@@ -781,6 +782,7 @@ footer ul li a:hover {
     margin-top: 19px;
     margin-bottom: 15px;
     gap: 20px;
+    padding-right: 0px;
   }
   .presentation {
     gap: 25px;
