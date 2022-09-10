@@ -247,6 +247,7 @@ header p {
 .bth:active {
   box-shadow: 0 0 #f2f2f2;
   top: 6px;
+  transform: scale(1);
 }
 
 /* FONCTIONEMENT */
