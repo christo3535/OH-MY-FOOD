@@ -59,7 +59,7 @@ a {
     opacity: 1;
   }
   99% {
-    z-index: 100;
+     z-index: 100; 
   }
   100% {
     opacity: 0;
@@ -164,7 +164,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 70px;
 }
 
 header p {
@@ -201,10 +201,19 @@ header p {
   align-items: center;
   background-color: #f3f3f3;
   font-size: large;
-  font-weight: 300;
+  font-weight: 100;
   gap: 18px;
   height: 60px;
   box-shadow: inset 0px 8px 6px -6px rgb(0 0 0/24%);
+}
+
+.location .fa-location-dot {
+  opacity: 0.7;
+}
+
+.location h4 {
+  font-weight: 600;
+  opacity: 0.7;
 }
 
 /* PRESENTATION */
@@ -218,9 +227,12 @@ header p {
   flex-direction: column;
   align-items: center;
 }
+.section-presentation{
+  font-weight: 200;
+}
 
 .bth {
-  padding: 10px 20px;
+  padding: 15px 20px;
   color: white;
   font-size: 1.1rem;
   background: linear-gradient(170deg, #ff79da, #9356dc);
@@ -319,14 +331,14 @@ header p {
 /* RESTAURANTS */
 
 .restaurants {
-  padding: 25px 10px;
+  padding: 25px 15px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 .restaurants h2 {
-  margin-left: 20px;
+  margin-left: 9px;
 }
 
 .nouveau {
@@ -439,7 +451,7 @@ input[type="checkbox"]:checked ~ i:hover {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #353535;
   color: #f2f2f2;
   padding: 20px;
   gap: 15px;
@@ -493,8 +505,6 @@ footer ul li a:hover {
   font-family: "Shrikhand";
 }
 
-
-/* TEMPLATE BUTTON + ANIMATION MOVING */
 
 
 /* MENU */
