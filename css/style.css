@@ -48,7 +48,7 @@ a {
   z-index: 100;
   align-items: center;
   justify-content: center;
-   animation: loader 1000ms ease-in-out forwards 2000ms;
+  animation: loader 1000ms ease-in-out forwards 2000ms;
 }
 
 @keyframes loader {
@@ -59,7 +59,7 @@ a {
     opacity: 1;
   }
   99% {
-     z-index: 100; 
+    z-index: 100;
   }
   100% {
     opacity: 0;
@@ -94,14 +94,13 @@ a {
 }
 .box ul::after {
   content: "";
-   width: 50px;
-   height: 50px;
-   margin-top: 150px;
-   position: absolute;
-   border-top: 3px solid var(--primaire);
-   border-radius: 50%;
-   animation: spin 1s linear infinite ;
-   
+  width: 50px;
+  height: 50px;
+  margin-top: 150px;
+  position: absolute;
+  border-top: 3px solid var(--primaire);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -127,7 +126,7 @@ a {
 
   100% {
     color: var(--secondaire);
-     /* text-shadow: 0 0 7px #9356dc, 0 0 8px #9356dc;  */
+    /* text-shadow: 0 0 7px #9356dc, 0 0 8px #9356dc;  */
   }
 }
 
@@ -271,9 +270,8 @@ header p {
   margin-bottom: 20px;
 }
 .option h1 {
-  margin-left: 15px;
-  font-family: 'Roboto',sans-serif;
-  
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
 .option-step {
@@ -338,7 +336,6 @@ header p {
   gap: 30px;
 }
 
-
 .nouveau {
   position: absolute;
   right: 15px;
@@ -381,7 +378,6 @@ header p {
 .card-image:hover {
   transform: scale(1.07);
 }
-
 
 .card-text {
   display: flex;
@@ -475,7 +471,6 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-
 /* MAIN IMAGE */
 
 .main-image {
@@ -502,8 +497,6 @@ footer ul li a:hover {
 .restaurant-name h1 {
   font-family: "Shrikhand";
 }
-
-
 
 /* MENU */
 
@@ -545,7 +538,6 @@ footer ul li a:hover {
   overflow: hidden;
   gap: 5px;
   display: flex;
-  
 }
 .card-head {
   display: flex;
@@ -633,8 +625,6 @@ footer ul li a:hover {
   animation: moving 0.8s forwards;
   animation-delay: 0.6s;
 }
- 
-
 
 /* TEMPLATE BUTTON + ANIMATION MOVING */
 .recherche {
